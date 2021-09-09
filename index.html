@@ -1,31 +1,85 @@
 <!DOCTYPE html>
-
 <html lang="en-US">
 
 <head>
-    <meta charset="utf-8">
-    <link href="styles/style.css" rel="stylesheet">
     <title>Page Title</title>
+    <link rel="icon" type="image/png" href="images/github.png">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <style type="text/css">
+        p {
+            color: blanchedalmond;
+        }
+    </style>
+    <script type="text/javascript" src="scripts/main.js" async></script>
+    <base target="_blank">
+    <meta charset="UTF-8">
+    <meta name="description" content="My Test Web HTML">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Heache Bear">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="60">
 </head>
 
 <body>
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5>Heading 5</h5>
-    <h6>Heading 6</h6>
-    <p>
-    <p title="echo" style="color: aqua;">Paragraph</p>
-    simple
-    <strong>strong</strong>
-    <a href="https://github.com/mrbeardad">Link</a>
-    <img src="images/github.png" alt="github icon" height="200" width="200">
-    </p>
-    <ul>
-        <li>list item</li>
-    </ul>
-</body>
+    <h1>Header1</h1>
+    <h2>Header2</h2>
+    <h3>Header3</h3>
+    <h4>Header4</h4>
+    <h5>Header5</h5>
+    <h6>Header6</h6>
 
+    <p>simple paragraph</p>
+    <p><b>bold</b> and <strong>strong</strong></p>
+    <p><i>italic</i> and <em>emphasize</em></p>
+    <p><del>delete</del> <ins>instead</ins></p>
+    <p>L<sup><small>A</small></sup>T<sub><small>E</small></sub>X</p>
+    <p><abbr title="abbreviations">abbr</abbr></p>
+    <p><kbd>keyboard</kbd></p>
+    <p><code>code</code></p>
+
+    <blockquote>
+        <p>blockquote</p>
+    </blockquote>
+
+    <p><q>quote</q></p>
+    <p><var>variable</var></p>
+    <p><samp>sample</samp></p>
+    <p><cite>title of work</cite></p>
+    <address>Chengdu, Sichuan, China</address>
+    <p><bdo dir="rtl">从右往左打印</bdo></p>
+
+    <pre>
+    <p>
+        predefined text that
+        remain blank character
+    </p>
+    </pre>
+
+    <!-- id create a anchor for link, span is use for unsementic text -->
+    <p><span id="jump"></span></p>
+
+    <p><a href="#jump" target="_blank">Links</a></p>
+
+    <p><img src="images/archlinux.png" alt="archlinux logo" width="100"></p>
+
+    <img src="https://www.runoob.com/try/demo_source/planets.gif" width="145" height="126" alt="Planets"
+        usemap="#planetmap">
+
+    <map name="planetmap">
+        <area shape="rect" coords="0,0,82,126" href="https://www.runoob.com/images/sun.gif" alt="Sun">
+        <area shape="circle" coords="90,58,3" href="https://www.runoob.com/try/demo_source/merglobe.gif" alt="Mercury">
+        <area shape="circle" coords="124,58,8" href="https://www.runoob.com/images/venglobe.gif" alt="Venus">
+    </map>
+
+    <br>
+    <hr>
+
+
+    <label for="disk_c">Disk usage C:</label>
+    <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+    <label for="disk_d" title="fuc">Disk usage D:</label>
+    <meter id="disk_d" value="0.6">60%</meter>
+</body>
 
 </html>
